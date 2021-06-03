@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+<!--    <com.google.android.exoplayer2.ui.PlayerView-->
+<!--        android:id="@+id/video_view"-->
+<!--        tools:ignore="MissingClass"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_margin="10dp"/>-->
+
+    <Button
+        android:id="@+id/al_fateha"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="سورة الفاتحة"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/al_ekhlas"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="سورة الإخلاص"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/al_nas"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="سورة الناس"
+        android:textSize="24dp"/>
+
+    <Button
+        android:id="@+id/al_falak"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="سورة الفلق"
+        android:textSize="24dp"/>
+
+
+
+</LinearLayout>
